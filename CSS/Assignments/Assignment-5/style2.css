@@ -1,0 +1,54 @@
+body{
+    background-color: yellow;
+ }
+ h1{
+     text-align: center;
+ }
+ .main{
+     height: 850px;
+     width: 200px;
+     margin: 0px auto;
+     text-align: center;
+
+ }
+ .first{
+     height: 100px;
+     width: 100px;
+     background-color: green;
+     margin-bottom: 10px;
+     transition: 2s;
+ }
+ .first:hover{
+     width: 250px;
+ }
+ .second{
+     height: 100px;
+     width: 100px;
+     background-color: green;
+     margin-bottom: 10px;
+     transition: 2s;
+ }
+ .second:hover{
+     height: 250px;
+     width: 250px;
+ }
+ .third{
+     height: 100px;
+     width: 100px;
+     background-color: green;
+     margin-bottom: 10px;
+     transition: 2s;
+ }
+ .third:hover{
+     width: 250px;
+ }
+ .fourth{
+     height: 100px;
+     width: 100px;
+     background-color: green;
+     margin-bottom: 10px;
+ }
+ a{
+     font-size: 20px;
+     color: #551a8b;
+ }
