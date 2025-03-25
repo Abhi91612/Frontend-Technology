@@ -1,0 +1,143 @@
+body{
+    margin: 0;padding: 0;
+    background-color: cadetblue;
+    border: 10px solid wheat;
+    position: relative;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    padding-bottom: 10px;
+
+    font-style: italic;
+    
+}
+
+.m-1{
+    border: 8px solid red;
+    width: 450px;
+    height: 120px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 1px purple;
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    text-shadow: 2px 1px 2px purple;
+    
+    
+
+}
+.p-m{
+    border: 8px solid chartreuse;
+    margin: 0;padding: 0;
+    border-radius: 30px;
+    gap: 10px;
+    
+
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+.box1{
+    height: 300px;
+    width: 250px;
+    border: 5px solid red;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: x-large;
+    font-style: italic;
+    text-shadow: 2px 1px 2px rgb(124, 143, 41);
+    align-content: center;
+    padding-left: 20px;
+    justify-content: center;
+    background-color: #fff;
+
+
+    
+}
+
+.main3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.main4{
+    margin: 5px 300px 5px 300px;
+    border: 10px solid rgb(23, 201, 28);
+    font-size: large;
+    font-weight: 400;
+    background-color: blue;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+
+.store-items{
+
+    width: 300px;
+    height: 200px;
+    font-style: italic;
+    
+}
+
+.others{
+    margin: 7px 50px 5px 50px ;
+    display: flex;
+    margin-left:80px ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    background-color: yellow;
+}
+.p-other{
+    font-style: italic;
+    margin: -10px 40px 10px 40px;
+    align-content: center;
+    
+
+}
+
+
+
+.offer-fix
+{
+    height: 90px;
+    width: 500px;
+    background-color: rgb(51, 151, 51);
+    border: 4px solid rgb(182, 33, 33);
+    box-shadow: 7px 7px 8px rgb(63, 16, 97);
+    position: relative;
+    margin-left:32%;
+    display: flex;
+    position: fixed;
+    top: 550px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+

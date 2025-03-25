@@ -1,0 +1,142 @@
+.s-1{
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red, green, 60%, yellow);
+}
+.s-2{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 80px;
+    width: 600px;
+    margin-left: 290px;
+    border: 3px solid red;
+    border-radius: 15px;
+}
+.s-3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 320px;
+    background-color: cadetblue;
+    
+}
+
+
+.items{
+    height:60px;
+    width: 350px;
+    margin-top: 10px;
+    background-color: aqua;
+    padding: 20px;
+    border: 3px solid green;
+    border-radius: 15px;
+
+}
+
+.s-4{
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red, green, 20%, yellow,red);
+}
+
+.s-5{
+    display: flex;
+        justify-content: space-evenly;
+        background: radial-gradient(blue, aqua, green);
+        height: 200px;
+        align-items: center;
+    
+}
+
+.card{
+    border: 2px solid red;
+    background-color: yellow;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    padding-bottom: 10px;
+
+}
+
+.grid-parent{
+    border: 2px solid black;
+}
+
+.s-6{
+    text-align: center;
+    text-decoration: underline;
+    color: wheat;
+    background-color: red;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(171, 20, 20);
+    font-style: italic;
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+
+.box1{
+    background-color: blueviolet;
+    text-align: center;
+    height: 80px;
+    
+
+}
+.box2{
+    background-color: rgb(20, 176, 67);
+    text-align: center;
+    height: 80px;
+
+}
+.box3{
+    background-color: rgb(120, 174, 20);
+    text-align: center;
+    height: 80px;
+}
+
+.box4{
+    background-color: rgb(13, 12, 15);
+    text-align: center;
+    grid-column-start: 4;
+    grid-row: 1/4;
+    font-size: large;
+    text-decoration: underline;
+    width: 200px;
+    height: 190px;
+
+}
+
+.box5{
+    background-color: orange;
+    text-align: center;
+    height: 80px;
+    font-size: large;
+    grid-column-start:1 ;
+    grid-column-end: 4;
+    height: 100px;
+    
+    
+}
+
+.wises{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    background: radial-gradient(rgb(156, 156, 200), aqua, green , orange, red);
+
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0;padding: 0;
+    background-color: yellow;
+}
+
+.s-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(60, 60, 177);
+    animation-name: transform1;
+    transform: skewX(20deg);
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+
+
+
+
+@keyframes transform {
+    0% {
+        transform: skewY(30deg);
+    }
+    50% {
+        transform: skewY(-30deg);
+    }
+    100% {
+        transform: skewY(30deg);
+    }
+}
+@keyframes transform1 {
+        
+    0% {
+        transform: skewX(20deg);
+    }
+    50% {
+        transform: skewX(-20deg);
+    }
+    100% {
+        transform: skewX(20deg);
+    }
+}
